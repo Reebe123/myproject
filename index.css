@@ -3,7 +3,46 @@
     margin: 0;
     padding: 0;
 }
-@media only screen and (max-width: 786px){
+/* Add this to the end of your CSS file */
+
+/* Mobile devices (portrait and landscape) */
+@media only screen and (max-width: 768px) {
+  /* Styles for mobile devices */
+  body {
+    font-size: 16px;
+  }
+  .education h2, .skills h2, .courses h2, .experience h2 {
+    font-size: 18px;
+  }
+  .education h3, .courses h3 {
+    font-size: 16px;
+  }
+  .skills ul {
+    columns: 1; /* Make the list single column on mobile */
+  }
+  .skills ul li {
+    margin-bottom: 10px; /* Reduce margin between list items on mobile */
+  }
+}
+
+/* Desktop devices */
+@media only screen and (min-width: 769px) {
+  /* Styles for desktop devices */
+  body {
+    font-size: 18px;
+  }
+  .education h2, .skills h2, .courses h2, .experience h2 {
+    font-size: 22px;
+  }
+  .education h3, .courses h3 {
+    font-size: 18px;
+  }
+  .skills ul {
+    columns: 2; /* Make the list two columns on desktop */
+  }
+  .skills ul li {
+    margin-bottom: 20px; /* Increase margin between list items on desktop */
+  }
 }
 body{
     font-family: Arial, Helvetica, sans-serif ;
