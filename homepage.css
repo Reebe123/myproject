@@ -1,0 +1,76 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif ;
+    background-color: #303f53 ;
+   /* background-image: url(lake.jpg); */
+}
+.hero-section{
+    margin-top: 100px;
+}
+img{
+     width: 40vh;
+     height: 40vh;
+     /* float: right; */
+    margin-left: 95%;
+    margin-top: -180px;
+}
+.container{
+    max-width: 800px;
+    margin-left: 100px;
+    /* display: flex; */
+    /* text-align: center; */
+}
+h1{
+    font-size: 48px;
+    color: #fff;
+    margin-left: 50px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+h2{
+    font-size: 24px;
+    color: #fff;
+    margin-bottom: 20px;
+    font-weight: normal;
+}
+p{
+    margin-left: 15px;
+    color: #fff;
+}
+hr{
+    margin-top: 20px;
+    border-radius: 2px solid gray;
+    width: 100%;
+    
+}
+.about{
+    color: #fff;
+    margin-left: 90px;
+    margin-top: 35px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+pre{
+    color: #fff;
+    margin-left: -10px;
+}
+.box ul{
+     list-style: none;
+     margin-left: 75px;
+
+}
+.box li a {
+     color: #fff;
+    
+}
+.box ul li{
+    
+    margin-top: 20px;
+}
+.detail{
+    margin-top: 20px;
+}
